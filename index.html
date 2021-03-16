@@ -1,0 +1,63 @@
+<!DOCTYPE.html>
+<html>
+  <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compartible" content="ie=edge">
+     <link rel="stylesheet" href="materialize-v1.0.0/materialize/css/materialize.min.css">
+     <title>Calories Tracker</title>
+  </head>
+
+  <body>
+    <nav class="blue">
+      <div class="container">
+        <a href="#" class="brand-logo center">Tracalories</a>
+        <ul class="right">
+          <li><a href="" class="btn blue clear-btn ligthen">Clear All</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title">Add Calories / Meal</span>
+          <form class="col">
+            <div class="row">
+              <div class="input-field col s6">
+                <label for="add-meal">Meal</label>
+                <input type="text" id="item-meal" placeholder="Add meal">
+              </div>
+
+              <div class="input-field col s6">
+                <label for="input-calories">Calories</label>
+                <input type="text" id="item-calories" placeholder="Add calories">
+              </div>
+
+              <!-- Buttons -->
+              <button class="btn blue add">Add Meal</button>
+              <button class="btn orange update ">Update Meal</button>
+              <button class="btn red delete">Delete Meal</button>
+              <button class="btn grey back right">Back</button>
+
+            </div>
+
+
+          </form>
+
+
+        </div>
+      </div>
+
+      <h3 class="center">Total:<span class="cal-count">0</span></h3>
+
+      <!-- Meal collection -->
+      <ul class="collection">
+      </ul>
+    </div>
+
+    <!-- <script src="jquery/master"></script> -->
+    <script src="materialize-v1.0.0/materialize/js/materialize.min.js"></script>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
